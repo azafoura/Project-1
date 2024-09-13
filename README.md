@@ -1,4 +1,5 @@
 # Project-1
+The Store Inventory Management System this  tool is designed to help stores manage their products and stock effortlessly. It lets store owners easily add, update, and remove products while keeping track of important details like supplier information and expiration dates. The system monitors inventory levels in real-time and sends alerts when items are running low or about to expire. It also provides insights into which products are the top sellers and gives smart suggestions on how much to restock. With helpful automation that still lets the owner make the final call on key decisions, this system is the perfect solution for keeping store operations smooth and efficient.
 
 **Objective:**
 
