@@ -11,4 +11,6 @@ Main functionalities:
 - Track finances.
 - Alerts user when products are running out of stock.
 - Compiles reports based on data analysis.
-- 
+
+
+Functionalities can be subject to updates and changes.
