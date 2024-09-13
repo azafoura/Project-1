@@ -5,6 +5,7 @@
 Administation for merchants, a flexible CRUD software to manage products' sales and stock. User friendly, based on databases.
 
 Functionalities/Feautures:
+- create a data base with available items/products with information about it{expiration date ...}
 - CRUD Application.
 - Track products stock.
 - Track products prices and revenue.
