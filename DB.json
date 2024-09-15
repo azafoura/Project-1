@@ -276,11 +276,6 @@
           "total_sale_value": 179.55
         }
       ]
-    },
-    {
-      "product_id": 13,
-      "name": "Potatoes",
-      "category": "Vegetables",
-      "supplier": {
-        "supplier_id": 113,
+    }
+    }
 
