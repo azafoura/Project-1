@@ -1,0 +1,286 @@
+
+{
+  "inventory": [
+    {
+      "product_id": 1,
+      "name": "Whole Milk",
+      "category": "Dairy",
+      "supplier": {
+        "supplier_id": 101,
+        "name": "Farm Fresh Suppliers",
+        "contact": "farmfresh@example.com",
+        "phone": "+1234567890"
+      },
+      "stock_level": 50,
+      "price": 1.99,
+      "expiration_date": "2024-10-01",
+      "low_stock_threshold": 10,
+      "sales": [
+        {
+          "sale_id": 1001,
+          "date": "2024-09-01",
+          "quantity_sold": 20,
+          "total_sale_value": 39.8
+        }
+      ]
+    },
+    {
+      "product_id": 2,
+      "name": "Bananas",
+      "category": "Fruits",
+      "supplier": {
+        "supplier_id": 102,
+        "name": "Tropical Fruits Co.",
+        "contact": "tropical@example.com",
+        "phone": "+0987654321"
+      },
+      "stock_level": 100,
+      "price": 0.59,
+      "expiration_date": "2024-09-20",
+      "low_stock_threshold": 20,
+      "sales": [
+        {
+          "sale_id": 1002,
+          "date": "2024-09-06",
+          "quantity_sold": 50,
+          "total_sale_value": 29.5
+        }
+      ]
+    },
+    {
+      "product_id": 3,
+      "name": "Chicken Breast",
+      "category": "Meat",
+      "supplier": {
+        "supplier_id": 103,
+        "name": "Premium Meats Ltd.",
+        "contact": "premiummeats@example.com",
+        "phone": "+1122334455"
+      },
+      "stock_level": 75,
+      "price": 5.99,
+      "expiration_date": "2024-09-25",
+      "low_stock_threshold": 15,
+      "sales": [
+        {
+          "sale_id": 1003,
+          "date": "2024-09-03",
+          "quantity_sold": 15,
+          "total_sale_value": 89.85
+        }
+      ]
+    },
+    {
+      "product_id": 4,
+      "name": "Eggs (12-pack)",
+      "category": "Dairy",
+      "supplier": {
+        "supplier_id": 104,
+        "name": "Happy Chick Farms",
+        "contact": "happychick@example.com",
+        "phone": "+15554443333"
+      },
+      "stock_level": 200,
+      "price": 2.99,
+      "expiration_date": "2024-09-18",
+      "low_stock_threshold": 30,
+      "sales": [
+        {
+          "sale_id": 1004,
+          "date": "2024-09-07",
+          "quantity_sold": 50,
+          "total_sale_value": 149.5
+        }
+      ]
+    },
+    {
+      "product_id": 5,
+      "name": "Apples",
+      "category": "Fruits",
+      "supplier": {
+        "supplier_id": 105,
+        "name": "Orchard Valley",
+        "contact": "orchardvalley@example.com",
+        "phone": "+15556667777"
+      },
+      "stock_level": 150,
+      "price": 0.99,
+      "expiration_date": "2024-09-28",
+      "low_stock_threshold": 20,
+      "sales": [
+        {
+          "sale_id": 1005,
+          "date": "2024-09-04",
+          "quantity_sold": 30,
+          "total_sale_value": 29.7
+        }
+      ]
+    },
+    {
+      "product_id": 6,
+      "name": "Broccoli",
+      "category": "Vegetables",
+      "supplier": {
+        "supplier_id": 106,
+        "name": "Green Thumb Farms",
+        "contact": "greenthumb@example.com",
+        "phone": "+14442221111"
+      },
+      "stock_level": 100,
+      "price": 1.29,
+      "expiration_date": "2024-09-22",
+      "low_stock_threshold": 15,
+      "sales": [
+        {
+          "sale_id": 1006,
+          "date": "2024-09-09",
+          "quantity_sold": 25,
+          "total_sale_value": 32.25
+        }
+      ]
+    },
+    {
+      "product_id": 7,
+      "name": "Orange Juice (1L)",
+      "category": "Beverages",
+      "supplier": {
+        "supplier_id": 107,
+        "name": "Citrus Delights",
+        "contact": "citrus@example.com",
+        "phone": "+12223334444"
+      },
+      "stock_level": 80,
+      "price": 3.49,
+      "expiration_date": "2024-10-05",
+      "low_stock_threshold": 10,
+      "sales": [
+        {
+          "sale_id": 1007,
+          "date": "2024-09-06",
+          "quantity_sold": 20,
+          "total_sale_value": 69.8
+        }
+      ]
+    },
+    {
+      "product_id": 8,
+      "name": "Spaghetti",
+      "category": "Pasta",
+      "supplier": {
+        "supplier_id": 108,
+        "name": "Italian Goodies",
+        "contact": "italian@example.com",
+        "phone": "+19998887777"
+      },
+      "stock_level": 120,
+      "price": 1.49,
+      "expiration_date": "2024-12-01",
+      "low_stock_threshold": 25,
+      "sales": [
+        {
+          "sale_id": 1008,
+          "date": "2024-09-08",
+          "quantity_sold": 40,
+          "total_sale_value": 59.6
+        }
+      ]
+    },
+    {
+      "product_id": 9,
+      "name": "Tomato Sauce",
+      "category": "Canned Goods",
+      "supplier": {
+        "supplier_id": 109,
+        "name": "Canned Co.",
+        "contact": "cannedco@example.com",
+        "phone": "+12225558888"
+      },
+      "stock_level": 140,
+      "price": 1.99,
+      "expiration_date": "2025-01-15",
+      "low_stock_threshold": 20,
+      "sales": [
+        {
+          "sale_id": 1009,
+          "date": "2024-09-10",
+          "quantity_sold": 50,
+          "total_sale_value": 99.5
+        }
+      ]
+    },
+    {
+      "product_id": 10,
+      "name": "Cheddar Cheese",
+      "category": "Dairy",
+      "supplier": {
+        "supplier_id": 110,
+        "name": "Cheese Delights",
+        "contact": "cheese@example.com",
+        "phone": "+13332221111"
+      },
+      "stock_level": 85,
+      "price": 4.99,
+      "expiration_date": "2024-09-29",
+      "low_stock_threshold": 10,
+      "sales": [
+        {
+          "sale_id": 1010,
+          "date": "2024-09-05",
+          "quantity_sold": 25,
+          "total_sale_value": 124.75
+        }
+      ]
+    },
+    {
+      "product_id": 11,
+      "name": "Lettuce",
+      "category": "Vegetables",
+      "supplier": {
+        "supplier_id": 111,
+        "name": "Green Leaf Farm",
+        "contact": "greenleaf@example.com",
+        "phone": "+15551112222"
+      },
+      "stock_level": 90,
+      "price": 1.79,
+      "expiration_date": "2024-09-18",
+      "low_stock_threshold": 10,
+      "sales": [
+        {
+          "sale_id": 1011,
+          "date": "2024-09-07",
+          "quantity_sold": 30,
+          "total_sale_value": 53.7
+        }
+      ]
+    },
+    {
+      "product_id": 12,
+      "name": "Rice (1kg)",
+      "category": "Grains",
+      "supplier": {
+        "supplier_id": 112,
+        "name": "Global Grains",
+        "contact": "grains@example.com",
+        "phone": "+18882224444"
+      },
+      "stock_level": 160,
+      "price": 3.99,
+      "expiration_date": "2025-06-01",
+      "low_stock_threshold": 20,
+      "sales": [
+        {
+          "sale_id": 1012,
+          "date": "2024-09-11",
+          "quantity_sold": 45,
+          "total_sale_value": 179.55
+        }
+      ]
+    },
+    {
+      "product_id": 13,
+      "name": "Potatoes",
+      "category": "Vegetables",
+      "supplier": {
+        "supplier_id": 113,
+
