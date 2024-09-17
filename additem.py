@@ -27,4 +27,3 @@ def additem(name,id=None,category=None, stock=0,price=0.0,stockthreshold=10,supp
     cursor.execute(query,(id,name,category,stock,price,stockthreshold,supplier_id))
     conn.commit()
     cursor.close()
-additem('MAMADOU',99,'male',22,89.9,7,66)
