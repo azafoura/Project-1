@@ -9,7 +9,7 @@ CREATE TABLE products (
   low_stock_threshold INT
 );
 
--- Insert data into the products table
+-- Insert data into the product pts table
 INSERT INTO products (product_id, name, category, stock_level, price, expiration_date, low_stock_threshold)
 VALUES
   (1, 'Whole Milk', 'Dairy', 50, 1.99, '2024-10-01', 10),
@@ -50,3 +50,9 @@ VALUES
   (1010, 10, '2024-09-05', 25, 124.75),
   (1011, 11, '2024-09-07', 30, 53.7),
   (1012, 12, '2024-09-11', 45, 179.55);
+CREATE TABLE sql7731574.products (
+
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=latin1
+COLLATE=latin1_swedish_ci;
