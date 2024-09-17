@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import mysql.connector
-import sqlalchemy
 
 conn = mysql.connector.connect(
     host="sql7.freemysqlhosting.net",           # Replace with your MySQL server (usually localhost)
@@ -28,7 +27,7 @@ def Purchase():
     cursor = conn.cursor()
     while True:
         try:
-            x=input('Enter Product ID or if done leave field empty and press enter:')
+            x=input('Enter Product ID or if done leave field empty and press enter: ')
             if x == '': break
             x = int(x)
             if x not in products_df.index:
@@ -39,7 +38,7 @@ def Purchase():
         prds.append(x)
         while True:
             try:
-                y=int(input(f"Enter {products_df.loc[x, 'name']} quantity:"))
+                y=int(input(f"Enter {products_df.loc[x, 'name']} quantity: "))
                 if y not in range(1, products_df.loc[x, 'stock_level']+1):
                     raise ValueError('try ordering less you fat fuck')
                 else: break
